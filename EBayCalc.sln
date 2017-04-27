@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayCalc_Utils", "EbayCalc.Util\EbayCalc_Utils.csproj", "{9F6C1521-5C58-4B34-8DD7-3EDCE5F0B42B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayCalc_WPF", "EbayCalc_WPF\EbayCalc_WPF.csproj", "{FD4DB7DE-A63A-4C2E-AA71-8A189A8B0A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBayCalc_WinForm", "EBayCalc_WinForm\EBayCalc_WinForm.csproj", "{723D8139-6E8E-4E57-BE38-55D948C1CCB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F6C1521-5C58-4B34-8DD7-3EDCE5F0B42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6C1521-5C58-4B34-8DD7-3EDCE5F0B42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6C1521-5C58-4B34-8DD7-3EDCE5F0B42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6C1521-5C58-4B34-8DD7-3EDCE5F0B42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4DB7DE-A63A-4C2E-AA71-8A189A8B0A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4DB7DE-A63A-4C2E-AA71-8A189A8B0A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4DB7DE-A63A-4C2E-AA71-8A189A8B0A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4DB7DE-A63A-4C2E-AA71-8A189A8B0A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EBayCalc.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Shipping_Paid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3.00</Value>
+    </Setting>
+    <Setting Name="Insurance_Paid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1.50</Value>
+    </Setting>
+    <Setting Name="Handling_Paid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.50</Value>
+    </Setting>
+    <Setting Name="Shipping_Received" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3.00</Value>
+    </Setting>
+    <Setting Name="Insurance_Received" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1.50</Value>
+    </Setting>
+    <Setting Name="Handling_Received" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

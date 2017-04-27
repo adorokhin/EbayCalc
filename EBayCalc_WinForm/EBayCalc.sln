@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBayCalc", "EBayCalc.csproj", "{723D8139-6E8E-4E57-BE38-55D948C1CCB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723D8139-6E8E-4E57-BE38-55D948C1CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
