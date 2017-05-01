@@ -46,15 +46,16 @@
         mc:Ignorable="d" 
         x:Class="EbayCalc_WPF.MainWindow"
         Title="Transparent"
-        Height="400" Width="300"
+        Height="600" Width="450"
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
         AllowsTransparency="True" 
-        Background="Transparent">
+        Background="Transparent" 
+        Icon="Graphics/MoneyPig.ico">
     <Border Background="YellowGreen" CornerRadius="10" Padding="5">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="20"/>
+                <RowDefinition Height="30"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" 
@@ -63,17 +64,44 @@
                         HorizontalAlignment="Stretch" 
                         Height="auto" Width="auto">
                 <Image DataContext="$Spin.jpg" 
-                       Source="Graphics/Spin$.gif" 
-                       Width="15" Height="15" 
+                       Source="Graphics/MoneyPig.ico" 
+                       Width="Auto" Height="Auto" 
                        VerticalAlignment="Center" 
                        HorizontalAlignment="Left" 
-                       Margin="5,0,0,0"/>
-                <TextBlock Text="© B&amp;D World Coins 2017" 
+                       Margin="5,0,0,3"/>
+                <TextBlock Text="Ebay Listing Calculator © B&amp;D World Coins 2017" 
                            VerticalAlignment="Center" 
                            HorizontalAlignment="Center" 
-                           FontFamily="Engravers MT"
-                           Margin="20,0,0,0" />
+                           FontFamily="Copperplate Gothic Light"
+                           Margin="20,4,0,4" />
             </StackPanel>
+            <Grid Grid.Row ="1" Width="Auto" Height="Auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column= "0" Name="Toolbar" Orientation="Vertical">
+
+                    <syncfusion:ButtonAdv x:Name="btn_Calc"
+                                          SizeMode="Small"
+                                          Height="48" Width="48"
+                                          Margin="5,0,5,5" 
+                                          IconHeight="36" IconWidth="36" 
+                                          IsMultiLine="False" 
+                                          SmallIcon="Graphics/Blackvariant-Shadow135-System-Calculator.ico" 
+                                          Background="{x:Null}" BorderBrush="#FF54A213"/>
+
+                    <syncfusion:ButtonAdv x:Name="btn_Reset"
+                                          SizeMode="Small"
+                                          Height="48" Width="48"
+                                          Margin="5,0,5,5" 
+                                          IconHeight="36" IconWidth="36" 
+                                          IsMultiLine="False" 
+                                          SmallIcon="Graphics/Blackvariant-Shadow135-System-TrashEmpty.ico" 
+                                          Background="{x:Null}" BorderBrush="#FF54A213"/>
+
+                </StackPanel>
+            </Grid>
 
         </Grid>
     </Border>
