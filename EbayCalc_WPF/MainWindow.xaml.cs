@@ -25,12 +25,8 @@ namespace EbayCalc_WPF
         public MainWindow()
         {
             InitializeComponent();
-            MouseDown += Window_MouseDown;
-        }
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left)
-                DragMove();
+            MouseDown += (o, e) => {if (e.ChangedButton == MouseButton.Left) DragMove(); };
+            PreviewKeyDown += (o, e) => {if (e.Key == Key.Escape) Close(); };
         }
 
         private void Calculate()
