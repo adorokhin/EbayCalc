@@ -45,7 +45,7 @@
         xmlns:syncfusion="http://schemas.syncfusion.com/wpf" 
         mc:Ignorable="d" 
         x:Class="EbayCalc_WPF.MainWindow"
-        Title="Transparent"
+        Title="Ebay Listing Price Calculator"
         Height="600" Width="450"
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
@@ -68,33 +68,44 @@
                        Width="Auto" Height="Auto" 
                        VerticalAlignment="Center" 
                        HorizontalAlignment="Left" 
-                       Margin="5,0,0,3"/>
+                       Margin="15,0,0,3"/>
                 <TextBlock Text="Ebay Listing Calculator © B&amp;D World Coins 2017" 
                            VerticalAlignment="Center" 
                            HorizontalAlignment="Center" 
                            FontFamily="Copperplate Gothic Light"
-                           Margin="20,4,0,4" />
+                           Margin="20,4,0,4" Foreground="White" FontSize="13" 
+                           />
             </StackPanel>
             <Grid Grid.Row ="1" Width="Auto" Height="Auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="60"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel Grid.Column= "0" Name="Toolbar" Orientation="Vertical">
+                <StackPanel Grid.Column= "0"
+                            Name="Toolbar" 
+                            Orientation="Vertical" 
+                            Margin="2" 
+                            VerticalAlignment="Stretch"
+                            Height="595">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#8bc34a" Offset="0"/>
+                            <GradientStop Color="YellowGreen" Offset="1"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
 
                     <syncfusion:ButtonAdv x:Name="btn_Calc"
                                           SizeMode="Small"
                                           Height="48" Width="48"
-                                          Margin="5,0,5,5" 
+                                          Margin="4,8,5,5" 
                                           IconHeight="36" IconWidth="36" 
                                           IsMultiLine="False" 
                                           SmallIcon="Graphics/Blackvariant-Shadow135-System-Calculator.ico" 
                                           Background="{x:Null}" BorderBrush="#FF54A213"/>
-
                     <syncfusion:ButtonAdv x:Name="btn_Reset"
                                           SizeMode="Small"
                                           Height="48" Width="48"
-                                          Margin="5,0,5,5" 
+                                          Margin="4,0,4,5" 
                                           IconHeight="36" IconWidth="36" 
                                           IsMultiLine="False" 
                                           SmallIcon="Graphics/Blackvariant-Shadow135-System-TrashEmpty.ico" 
