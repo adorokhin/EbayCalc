@@ -109,9 +109,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Graphics\Dollar.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Dollar.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -119,9 +116,6 @@
       <Project>{9f6c1521-5c58-4b34-8dd7-3edce5f0b42b}</Project>
       <Name>EbayCalc_Utils</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Graphics\Dollar.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Graphics\MoneyPig.ico" />

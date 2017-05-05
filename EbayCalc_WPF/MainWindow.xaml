@@ -79,8 +79,8 @@
                 <TextBlock Text="Ebay Listing Calculator © B&amp;D World Coins 2017" 
                            VerticalAlignment="Center" 
                            HorizontalAlignment="Center" 
-                           FontFamily="Copperplate Gothic Light"
-                           Margin="20,4,0,4" Foreground="White" FontSize="13" 
+                           FontFamily="Comic Sans MS"
+                           Margin="20,4,0,4" Foreground="White" FontSize="14" FontWeight="Bold" 
                            />
             </StackPanel>
             <Grid Grid.Row ="1" Width="Auto" Height="Auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
